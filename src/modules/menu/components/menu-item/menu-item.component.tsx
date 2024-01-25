@@ -31,7 +31,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
       <div className="p-8">
         <h3 className="text-xl font-semibold">{title}</h3>
         <p className="mb-8">{ingredients}</p>
-        <span className="text-xl font-semibold">{price} грн</span>
+        <span className="text-xl font-medium text-slate-900">{price} грн</span>
       </div>
     </div>
   );
