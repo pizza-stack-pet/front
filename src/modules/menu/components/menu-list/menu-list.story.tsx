@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import MenuList from "./menu-list.component";
-
+import PIZZA_MENU from "@app/mocks/pizza.json";
 
 const meta = {
   title: "Menu/Menu List",
@@ -10,5 +10,8 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-
-export const View: Story = {};
+export const View: Story = {
+  args: {
+    items: PIZZA_MENU,
+  },
+};
