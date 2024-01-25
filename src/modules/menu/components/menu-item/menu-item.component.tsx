@@ -16,10 +16,10 @@ const MenuItem: React.FC<MenuItemProps> = ({
   weight,
 }) => {
   return (
-    <div className="w-96 shadow-md rounded-b-lg bg-slate-50">
+    <div className="w-96 shadow-md rounded-md bg-slate-50">
       <div className="relative">
         <img
-          className="object-cover object-center w-full h-[15rem] rounded-t-lg"
+          className="object-cover object-center w-full h-[15rem] rounded-t-md"
           src={imagePath}
           alt={`Піцца ${title}`}
         />

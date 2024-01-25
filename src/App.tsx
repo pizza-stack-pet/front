@@ -1,6 +1,17 @@
+import Footer from "./common/components/footer/footer.component";
+import Header from "./common/components/header/header.component";
+import MenuList from "./modules/menu/components/menu-list/menu-list.component";
+import PIZZA_MENU from "@app/mocks/pizza.json";
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">🍕 PizzaStack - найкраща IT-піцерія України</h1>
+    <div className="font-sans antialiased bg-slate-50 text-slate-900">
+      <Header />
+      <div className="mx-12 mb-24">
+        <MenuList items={PIZZA_MENU} />
+      </div>
+      <Footer />
+    </div>
   );
 }
 

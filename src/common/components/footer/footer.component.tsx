@@ -3,7 +3,7 @@ import FooterLink from "../footer-link/footer-link.component";
 
 const Footer: React.FC = () => {
   return (
-    <div className="bg-gray-900 pt-12 px-12 pb-8 flex flex-col gap-8">
+    <div className="bg-gray-900 p-12 flex flex-col gap-8">
       <div>
         <div className="mb-4">
           <span className="uppercase text-sm text-bold text-zinc-500">

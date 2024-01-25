@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --radius: 0.75rem;
+  }
+}
+
 @font-face {
   font-family: "Geist";
   src: url("../public/fonts/Geist-Regular.woff2");
