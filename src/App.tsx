@@ -1,3 +1,4 @@
+import Footer from "./common/components/footer/footer.component";
 import Header from "./common/components/header/header.component";
 import MenuList from "./modules/menu/components/menu-list/menu-list.component";
 import PIZZA_MENU from "@/mocks/pizza.json";
@@ -9,6 +10,7 @@ export const App = () => {
       <div className="mx-12 mb-24">
         <MenuList items={PIZZA_MENU} />
       </div>
+      <Footer />
     </div>
   );
 };
